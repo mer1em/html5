@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+@font-face {
+    font-family: inter;
+    src: url(Inter-VariableFont_slnt\,wght.ttf);
+}
+.container{
+    width: 100%;
+    display: flex;
+}
+.img1{
+    width: 435px;
+    height: 254px;
+    position: absolute;
+    z-index: 2;
+}
+.img2{
+    width: 558px;
+    height: 254px;
+    margin-left: 371px;
+    position: absolute;
+    z-index: 1;
+}
+.img3{
+    width: 421px;
+    height: 254px;
+    margin-left: 859px;
+    position: absolute;
+    z-index: 2;
+}
+p{
+    text-align: center;
+    font-family: inter;
+    position: relative;
+    color: white;
+    z-index: 3;
+    top: 195px;
+}
